@@ -104,7 +104,7 @@ if ($AUMeteredNetwork -eq "0"){
 } else {$AUMetered = "true"}
 
 #Get Device Location
-$ComputerPublicIP = (Invoke-WebRequest -uri "http://ifconfig.me/ip").Content
+$ComputerPublicIP = (Invoke-WebRequest -UseBasicParsing -uri "http://ifconfig.me/ip").Content
 $Computerlocation = Invoke-RestMethod -Method Get -Uri "http://ip-api.com/json/$ComputerPublicIP"
 $ComputerCountry = $Computerlocation.country
 $ComputerCity = $Computerlocation.city
