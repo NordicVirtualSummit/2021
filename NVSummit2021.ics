@@ -1,0 +1,1121 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-CALSTART:20210210T074500Z
+X-CALEND:20210211T150000Z
+X-WR-RELCALID:{0000002E-251F-1B0E-EADF-1A85581D6314}
+X-WR-CALNAME:Nordic Virtual Summit
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072923Z
+DESCRIPTION:Time to logon and get ready for your first session.
+DTEND;TZID="W. Europe Standard Time":20210210T090000
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210210T084500
+LAST-MODIFIED:20210209T045924Z
+LOCATION:Security and Compliance
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=en-us:Pre Conference Day 1
+TRANSP:OPAQUE
+UID:SZSESSION9a63e98c-9958-4a83-a552-21918cd5a52a
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072923Z
+DESCRIPTION:Time to logon and get ready for your first session.
+DTEND;TZID="W. Europe Standard Time":20210210T090000
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210210T084500
+LAST-MODIFIED:20210209T045924Z
+LOCATION:Azure & Automation
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=en-us:Pre Conference Day 1
+TRANSP:OPAQUE
+UID:SZSESSION03759303-d432-44f0-875e-e4b29807df71
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072923Z
+DESCRIPTION:Time to logon and get ready for your first session.\n\nhttps://
+	2021.nordicvirtualsummit.com/EMDay1\n
+DTEND;TZID="W. Europe Standard Time":20210210T090000
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210210T084500
+LAST-MODIFIED:20210209T045924Z
+LOCATION:Endpoint Management
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Pre Conference Day 1
+TRANSP:OPAQUE
+UID:SZSESSIONdd3b240d-7c3a-4ffd-8df2-f73f5f3b2954
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072923Z
+DESCRIPTION:Speaker: Corina Feuerstein\n\nMicrosoft 365 Defender: Stop atta
+	cks with automated cross-domain (XDR) security\n\nhttps://2021.nordicvirtu
+	alsummit.com/SecDay1\n
+DTEND;TZID="W. Europe Standard Time":20210210T094500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210210T090000
+LAST-MODIFIED:20210209T045924Z
+LOCATION:Security and Compliance
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Microsoft 365 Defender: Stop attacks with automated cro
+	ss-domain (XDR) security
+TRANSP:OPAQUE
+UID:SZSESSION233068
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072924Z
+DESCRIPTION:Speaker: Peter De Tender\n\nWhenever Azure services need to wor
+	k together\, there are secrets involved\, as well as service accounts. Azu
+	re offers several solutions to achieve this goal\, being Service Principal
+	s and Managed Identities. But the use cases are sometimes confusing\, to f
+	ind out when to use what\, what they do\, and how to use them. That's exac
+	tly what you will learn in this session from Peter\, Azure Technical Train
+	er at Microsoft\, in this demo-packed presentation.\n\nhttps://2021.nordic
+	virtualsummit.com/AzureDay1\n
+DTEND;TZID="W. Europe Standard Time":20210210T094500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210210T090000
+LAST-MODIFIED:20210209T045924Z
+LOCATION:Azure & Automation
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Demystifying Azure Service Principals and Managed Ident
+	ities
+TRANSP:OPAQUE
+UID:SZSESSION229182
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072924Z
+DESCRIPTION:Speaker: Michael Niehaus\n\nDid you ever wonder what happens wh
+	en a Windows 10 device enrolls in an MDM service?  What really happens?  I
+	n this session\, we'll go deep and look at the flow: discovery\, enrollmen
+	t\, sync sessions\, etc.\n\nhttps://2021.nordicvirtualsummit.com/EMDay1\n
+DTEND;TZID="W. Europe Standard Time":20210210T094500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210210T090000
+LAST-MODIFIED:20210209T045924Z
+LOCATION:Endpoint Management
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:How does MDM work in Windows 10?
+TRANSP:OPAQUE
+UID:SZSESSION229965
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072924Z
+DESCRIPTION:Speaker: Marius Skovli\n\nMicrosoft has simplified the path to 
+	getting started with their Advanced Threat Protection stack where Defender
+	 for Office and Endpoints is a natural starting point for many organizatio
+	ns\, in order to improve their security posture and get some good monitori
+	ng along the way. However\, it's still not always easy to know where to st
+	art. In this session\, I will share my top tips for getting started with M
+	icrosoft Defender\, how and what to prioritize to get going with improving
+	 your security posture for your end-users and endpoints. \n\nLearn:\n\n- 
+	How to onboard devices and users\n- How to Integrate with Secure Score to 
+	better understand  what to prioritize\n- How to use the data and dashboard
+	 to take certain actions\n- How to use Endpount Security and Security Base
+	lines in Endpoint Manager (MEM)\n- How to Implement your first anti-phishi
+	ng\, safe-attachment and safe-link policies How to monitor and take action
+	\n\nhttps://2021.nordicvirtualsummit.com/SecDay1\n
+DTEND;TZID="W. Europe Standard Time":20210210T104500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210210T100000
+LAST-MODIFIED:20210209T045924Z
+LOCATION:Security and Compliance
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Getting started with Microsoft Defender for Office and 
+	Endpoints
+TRANSP:OPAQUE
+UID:SZSESSION231346
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072924Z
+DESCRIPTION:Speaker: Marius Sandbu\n\nBuilding infrastructure in the cloud 
+	in easy\, maintaining control and security on services and applications in
+	 the cloud a bit harder. In this session we will cover how we can control 
+	security and build a governance model using code with tools such as Terraf
+	orm\, Graph API and Azure Resource Manager to manage the entire aspect fro
+	m Office365\, Azure Active Directory\, and virtual infrastructure in Azure
+	\n\nhttps://2021.nordicvirtualsummit.com/AzureDay1\n
+DTEND;TZID="W. Europe Standard Time":20210210T104500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210210T100000
+LAST-MODIFIED:20210209T045924Z
+LOCATION:Azure & Automation
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Governance and Security as Code
+TRANSP:OPAQUE
+UID:SZSESSION228929
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072924Z
+DESCRIPTION:Speakers: Jan Ketil Skanke\, Sandy Zeng\n\nAre you moving some 
+	or all of your management workloads to Intune? Are you missing your good o
+	ld configmgr logs? Then this is the session for you. Microsoft Endpoint Ma
+	nagers cloud reporting framework is based on Azure Log Analytics\, and the
+	re is a whole new world of possibilities that has just come our way. We wi
+	ll look into how you can use log data to build automation\, alerting and m
+	onitoring of your environment and incidents. With this you can audit all c
+	hanges in changes in your environment and do automation based desired stat
+	e configuration in the cloud. We will should how you can build your own wo
+	rkbook dashboard with the data YOU care about? What about combining data f
+	rom both on-premises and the cloud and visualise it all in one place?\n\nh
+	ttps://2021.nordicvirtualsummit.com/EMDay1\n
+DTEND;TZID="W. Europe Standard Time":20210210T104500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210210T100000
+LAST-MODIFIED:20210209T045924Z
+LOCATION:Endpoint Management
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:The Log Analytics of MEM!
+TRANSP:OPAQUE
+UID:SZSESSION229323
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072924Z
+DESCRIPTION:Speakers: Mattias Borg\, Stefan Schörling\n\nMany organization
+	s are moving to the Microsoft Defender for Endpoint solution but how shoul
+	d you work with the different features and capabilities?\nIn this session 
+	Mattias and Stefan will share how to extract forensic artefacts from an en
+	dpoint and respond to threats with the Live Response feature in Microsoft 
+	Defender for Endpoint and use tools from the security community\n\nhttps:/
+	/2021.nordicvirtualsummit.com/SecDay1\n
+DTEND;TZID="W. Europe Standard Time":20210210T114500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210210T110000
+LAST-MODIFIED:20210209T045924Z
+LOCATION:Security and Compliance
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Live response with Microsoft Defender for Endpoint
+TRANSP:OPAQUE
+UID:SZSESSION230994
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072924Z
+DESCRIPTION:Speaker: Aidan Finn\n\nHave you been told that Azure ExpressRou
+	te could be could for your organisation? Have you then browsed Microsoft's
+	 documentation or watched videos and felt like you had more questions than
+	 answers? You are not alone! In this session\,  I will introduce you to Az
+	ure ExpressRoute\, explain the terminology\, and walk you through the conf
+	using array of tiers\, performance options\, features\, and connectivity c
+	hoices.\n\nhttps://2021.nordicvirtualsummit.com/AzureDay1\n
+DTEND;TZID="W. Europe Standard Time":20210210T114500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210210T110000
+LAST-MODIFIED:20210209T045924Z
+LOCATION:Azure & Automation
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Azure ExpressRoute - Can Someone Please Explain It?!?!
+TRANSP:OPAQUE
+UID:SZSESSION228672
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072925Z
+DESCRIPTION:Speakers: Maurice Daly\, Nickolaj Andersen\n\nWith the addition
+	 of proactive remediations \, organisations now have the ability to perfor
+	m compliance item/baseline type jobs across all Windows managed devices.\n
+	\nIn this session we will look at the underlying components\, how to trace
+	 the running of the detection and remediation script\, registry values\, a
+	nd how to extend logging for your own scripts.\n\nWe will also look at exa
+	mples of how this awesome addition to your endpoint arsenal can benefit th
+	e admin\, as well as the reports analysts.\n\nhttps://2021.nordicvirtualsu
+	mmit.com/EMDay1\n
+DTEND;TZID="W. Europe Standard Time":20210210T114500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210210T110000
+LAST-MODIFIED:20210209T045924Z
+LOCATION:Endpoint Management
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Proactive Remediations Deep Dive
+TRANSP:OPAQUE
+UID:SZSESSION231195
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072925Z
+DTEND;TZID="W. Europe Standard Time":20210210T130000
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210210T120000
+LAST-MODIFIED:20210209T045925Z
+LOCATION:Security and Compliance
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=en-us:Lunch Break - "Open mic time"
+TRANSP:OPAQUE
+UID:SZSESSIONd81e4acf-6095-4c0e-8909-dcc0674820b5
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072925Z
+DTEND;TZID="W. Europe Standard Time":20210210T130000
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210210T120000
+LAST-MODIFIED:20210209T045925Z
+LOCATION:Azure & Automation
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=en-us:Lunch Break - "Open mic time"
+TRANSP:OPAQUE
+UID:SZSESSION301df177-b074-4140-8fea-56d3d4dfbda0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072925Z
+DTEND;TZID="W. Europe Standard Time":20210210T130000
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210210T120000
+LAST-MODIFIED:20210209T045925Z
+LOCATION:Endpoint Management
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=en-us:Lunch Break - "Open mic time"
+TRANSP:OPAQUE
+UID:SZSESSIONe5fe020a-412d-4935-8924-20fce70ae52d
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072925Z
+DESCRIPTION:Speaker: Markus Lintuala\n\nOrganizations are using more and mo
+	re SaaS based applications that are using cloud identities from their own 
+	directory\, which is really a good thing. Where is the right balance betwe
+	en security and usability? Is it ok to use those applications with organiz
+	ation's credentials from other device than corporate managed device? Which
+	 possibilities we have to protect our identities and applications and stil
+	l provide secure access with a great application usability for end users?\
+	n\nIn this session I will open the problem and provide one solution - How 
+	to protect all of your cloud apps with Azure AD and Microsoft Cloud App Se
+	curity together.\n\nhttps://2021.nordicvirtualsummit.com/SecDay1\n
+DTEND;TZID="W. Europe Standard Time":20210210T134500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210210T130000
+LAST-MODIFIED:20210209T045925Z
+LOCATION:Security and Compliance
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Protect all of your cloud apps with Azure AD and Cloud 
+	App Security
+TRANSP:OPAQUE
+UID:SZSESSION230469
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072925Z
+DESCRIPTION:Speaker: Martin Ehrnst\n\nKeen to know about how we can do reac
+	tive automation using Azure?\nAs IT-Pro's we have been blessed with techno
+	logy from the devs.  Events\, messages\, serverless and more. It's time to
+	 use our operational skills with this technology.\n\nhttps://2021.nordicvi
+	rtualsummit.com/AzureDay1\n
+DTEND;TZID="W. Europe Standard Time":20210210T134500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210210T130000
+LAST-MODIFIED:20210209T045925Z
+LOCATION:Azure & Automation
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Event-based automation for operations
+TRANSP:OPAQUE
+UID:SZSESSION228598
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072926Z
+DESCRIPTION:Speaker: Johan Arwidmark\n\nIn this session you get a technical
+	 drilldown in the cloud imaging via both MDT and ConfigMgr. How you can de
+	ploy Windows 10 with no local infrastructure other than Internet access. Y
+	ou learn about USB boot media options\, PXE over Internet\, hardware vendo
+	r options\, and other techniques to jumpstart the deployment over Internet
+	.\n\nhttps://2021.nordicvirtualsummit.com/EMDay1\n
+DTEND;TZID="W. Europe Standard Time":20210210T134500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210210T130000
+LAST-MODIFIED:20210209T045925Z
+LOCATION:Endpoint Management
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:A Geeks Guide to Cloud Imaging
+TRANSP:OPAQUE
+UID:SZSESSION231533
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072926Z
+DESCRIPTION:Speaker: Sami Laiho\n\nA few years ago Microsoft said BYOD is t
+	he way to go. Now the Bring Your Own Disaster model has been thrown in the
+	 background and the word for today is Zero Trust! On this session one of t
+	he world's leading security experts\, Sami Laiho\, will show you what Zero
+	 Trust means and how to deploy it in an environment!\n\nIn this session yo
+	u will learn about:\n\n- authenticating all communications\n- treating all
+	 networks as insecure\n- using principle of least privilege\n- allow-listi
+	ng applications\n- monitoring all activity\n\nhttps://2021.nordicvirtualsu
+	mmit.com/SecDay1\n
+DTEND;TZID="W. Europe Standard Time":20210210T144500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210210T140000
+LAST-MODIFIED:20210209T045925Z
+LOCATION:Security and Compliance
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Protecting Endpoints in a ZeroTrust world!
+TRANSP:OPAQUE
+UID:SZSESSION231085
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072926Z
+DESCRIPTION:Speaker: Jan Egil Ring\n\nIn this session we will start by look
+	ing into scenarios for using Azure Functions in hybrid environments\, befo
+	re we dive into the different options for running Azure Functions in your 
+	on-premises networks. We will also look into best practices on how to orga
+	nize and structure your functions\, as well as see how we can store and re
+	trieve global variables and credential assets.\n\nhttps://2021.nordicvirtu
+	alsummit.com/AzureDay1\n
+DTEND;TZID="W. Europe Standard Time":20210210T144500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210210T140000
+LAST-MODIFIED:20210209T045925Z
+LOCATION:Azure & Automation
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Azure Functions in a hybrid world
+TRANSP:OPAQUE
+UID:SZSESSION231186
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072926Z
+DESCRIPTION:Speaker: kim oppalfens\n\nThis session is about the current sta
+	te of settings management in a Windows workstation environment. It starts 
+	of with some history of settings management and where we're at currently. 
+	The second part and biggest chunk of the session is about taking the lesso
+	ns learned from the past and implement them to avoid ending up with the sa
+	me challenges. We'll discuss GPO and surrounding technologies and evolutio
+	ns in Intune settings management.\n\nhttps://2021.nordicvirtualsummit.com/
+	EMDay1\n
+DTEND;TZID="W. Europe Standard Time":20210210T144500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210210T140000
+LAST-MODIFIED:20210209T045925Z
+LOCATION:Endpoint Management
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Building a settings management practice
+TRANSP:OPAQUE
+UID:SZSESSION229750
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072926Z
+DESCRIPTION:Speaker: Nestori Syynimaa\n\nAzure AD is used by Microsoft Offi
+	ce 365 and over 2900 third-party apps. Although Azure AD is commonly regar
+	ded as secure\, there are known security issues regarding to identity fede
+	ration\, pass-through authentication\, and seamless single-sign-on. \n\nIn
+	 this session\, using AADInternals toolkit\, I will demonstrate how to cre
+	ate backdoors\, impersonate users\, and bypass MFA. Methods for detecting 
+	rogue behaviour are also introduced.\n\nThe purpose of this session is to 
+	raise awareness of the information security\, the importance of the princi
+	ple of least privilege\, and the crucial role of on-prem security to cloud
+	 security.\n\nhttps://2021.nordicvirtualsummit.com/SecDay1\n
+DTEND;TZID="W. Europe Standard Time":20210210T154500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210210T150000
+LAST-MODIFIED:20210209T045925Z
+LOCATION:Security and Compliance
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Abusing Azure Active Directory: Who would you like to b
+	e today?
+TRANSP:OPAQUE
+UID:SZSESSION230454
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072927Z
+DESCRIPTION:Speaker: Freek Berson\n\nSince the latest release of Windows Vi
+	rtual Desktop\, the service is fully integrated in the Azure Portal. This 
+	makes deploying WVD significantly easier. Time for the next step: automati
+	ng your WVD Deployments! In this demo heavy session\, we’ll take a look 
+	at 3 different ways to automate the deployment and management of WVD. We
+	’ll cover ARM (JSON)\, PowerShell and RESTapi\, and we'll take a look at
+	 Project 'Bicep' to empower ARM! Walk away with the skills you need to jum
+	p start your automation and get all the code shared during the session!\n\
+	nhttps://2021.nordicvirtualsummit.com/AzureDay1\n
+DTEND;TZID="W. Europe Standard Time":20210210T154500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210210T150000
+LAST-MODIFIED:20210209T045925Z
+LOCATION:Azure & Automation
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Jump Start your automation skills for WVD!
+TRANSP:OPAQUE
+UID:SZSESSION229255
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072927Z
+DESCRIPTION:Speakers: Mirko Colemberg\, Panu Saukko\n\nDesktop Analytics (D
+	A) is mostly used to simplify the transition between Windows 10 versions. 
+	With Desktop Analytics you easily get insights e.g. what applications migh
+	t be problematic with the upgrade. Also\, the intelligent piloting guarant
+	ees that the pilot group contains all the required assets. And you can dep
+	loy Configuration Manager task sequences to the pilot & production groups 
+	to do the actual upgrade.\n\nBut Desktop Analytics can do a lot more. With
+	 it\, you see valuable information about Windows 10 security update status
+	. Also\, it gives you information about the assets\, which is independent 
+	of Configuration Manager inventory. Utilizing Log Analytics queries agains
+	t Desktop Analytics data\, you can find interesting new info about your de
+	vices and applications.\n\nIn this session\, you will learn how make the m
+	ost of the data Desktop Analytics has collected from your environment! \n\
+	nhttps://2021.nordicvirtualsummit.com/EMDay1\n
+DTEND;TZID="W. Europe Standard Time":20210210T154500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210210T150000
+LAST-MODIFIED:20210209T045925Z
+LOCATION:Endpoint Management
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Make the most from your Desktop Analytics infra
+TRANSP:OPAQUE
+UID:SZSESSION231484
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072927Z
+DTEND;TZID="W. Europe Standard Time":20210211T090000
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210211T084500
+LAST-MODIFIED:20210209T045925Z
+LOCATION:Security and Compliance
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=en-us:Pre Conference Day 2
+TRANSP:OPAQUE
+UID:SZSESSION6d7e681b-d6d9-4b43-a56b-942ab7eed3c2
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072927Z
+DESCRIPTION:Time to logon and be ready for the first session of the day
+DTEND;TZID="W. Europe Standard Time":20210211T090000
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210211T084500
+LAST-MODIFIED:20210209T045925Z
+LOCATION:Azure & Automation
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=en-us:Pre Conference Day 2
+TRANSP:OPAQUE
+UID:SZSESSIONa60807b7-6eaa-4d11-9343-d1e6181e718f
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072927Z
+DTEND;TZID="W. Europe Standard Time":20210211T090000
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210211T084500
+LAST-MODIFIED:20210209T045925Z
+LOCATION:Endpoint Management
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=en-us:Pre Conference Day 2
+TRANSP:OPAQUE
+UID:SZSESSION71aa1352-5f30-43ea-91ea-2c0dc3728b63
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072927Z
+DESCRIPTION:Speaker: Peter Schmidt\n\nAll Your Data is now in the Cloud\, w
+	hat's next. This session will show you how to get a good start on data pro
+	tection using Microsoft Information Protection. Get the full overview of w
+	hat Microsoft Information Protection is and how it can help protect our da
+	ta at rest. Covering everything you need to know\, to get started with dat
+	a classification and how to use Sensitivity Labels to protect and your dat
+	a\n\nhttps://2021.nordicvirtualsummit.com/SecDay2\n\n
+DTEND;TZID="W. Europe Standard Time":20210211T094500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210211T090000
+LAST-MODIFIED:20210209T045925Z
+LOCATION:Security and Compliance
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:A Hitchhikers Guide to Microsoft Information Protection
+TRANSP:OPAQUE
+UID:SZSESSION231450
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072928Z
+DESCRIPTION:Speaker: Greg Ramsey\n\nYou have Azure Automation. Your company
+	 is currently evaluating ServiceNow (or maybe has already deployed it). Jo
+	in this session to learn how to take advantage of these two platforms\, an
+	d join them for ultimate Service Management Process Automation!\n\nYou'll 
+	learn how to connect these two platforms\, as well as pass data to/from ea
+	ch one to handle automated tasks (for example responding to a monitoring a
+	lert\, or 'break glass' for server access).\n\nhttps://2021.nordicvirtuals
+	ummit.com/AzureDay2\n\n
+DTEND;TZID="W. Europe Standard Time":20210211T094500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210211T090000
+LAST-MODIFIED:20210209T045926Z
+LOCATION:Azure & Automation
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Azure Automation and ServiceNow - Better Together
+TRANSP:OPAQUE
+UID:SZSESSION230825
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072928Z
+DESCRIPTION:Speaker: Kent Agerlund\n\nLearn what's new and hot from Microso
+	ft when it comes to Enterprise Client Management. We will tour the latest 
+	Configuration Manager and Intune features as well at those not yet release
+	d in production. This session will you prepare for all the work you have t
+	o do next week and the months ahead.\n\nhttps://2021.nordicvirtualsummit.c
+	om/EMDay2\n
+DTEND;TZID="W. Europe Standard Time":20210211T094500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210211T090000
+LAST-MODIFIED:20210209T045926Z
+LOCATION:Endpoint Management
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:What's new and trending with Microsoft Enterprise Clien
+	t Management
+TRANSP:OPAQUE
+UID:SZSESSION228341
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072928Z
+DESCRIPTION:Speaker: Stefan van der Wiele\n\nPasswords are the weakest link
+	 for security and your business. During this session\, learn how we’ve b
+	een tackling the issue of passwords and how you can build a strategy for y
+	our organization to eliminate passwords from the day-to-day lives of your 
+	end-users. We’ll share the latest solutions and investments in this spac
+	e\, including Windows Hello\, Microsoft Authenticator\, and FIDO security 
+	keys. Come learn how you can incorporate password-less authentication into
+	 your MFA strategy and provide secure authentication to your end users dur
+	ing this demo packed session.\n\nhttps://2021.nordicvirtualsummit.com/SecD
+	ay2\n
+DTEND;TZID="W. Europe Standard Time":20210211T104500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210211T100000
+LAST-MODIFIED:20210209T045926Z
+LOCATION:Security and Compliance
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Building a world without passwords
+TRANSP:OPAQUE
+UID:SZSESSION228702
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072928Z
+DESCRIPTION:Speaker: Thomas Vochten\n\nIn the old days\, scheduling a scrip
+	t was easy: you just created a scheduled task on your favorite Windows Ser
+	ver and made that run your PowerShell script exactly how and when you want
+	ed. Granted\, scripts often stopped working when the author left the compa
+	ny and we disabled their user account\, some scripts required a very speci
+	fic environment for them to run properly\, and there is plenty of other ch
+	allenges about. Along came the cloud and our toolbox expanded dramatically
+	: Azure Automation\, Azure Functions\, Azure Logic Apps and even the Power
+	 Platform offers some interesting possibilities to make stuff happen on a 
+	schedule or run when a certain condition is met. This session will provide
+	 you with a comprehensive overview of when to use what\, their cost aspect
+	s and technical boundaries.\n\nhttps://2021.nordicvirtualsummit.com/AzureD
+	ay2\n
+DTEND;TZID="W. Europe Standard Time":20210211T104500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210211T100000
+LAST-MODIFIED:20210209T045926Z
+LOCATION:Azure & Automation
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Automation in the cloud for the reluctant IT Pro
+TRANSP:OPAQUE
+UID:SZSESSION230926
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072928Z
+DESCRIPTION:Speakers: Jörgen Nilsson\, Ronni Pedersen\n\nIn the work from 
+	anywhere era we need to be able to Service Windows 10 anywhere. How can we
+	 service Windows 10 without using Task Sequence and loosing control?! How 
+	do we troubleshoot\, how can we handle drivers? That and much more will be
+	 answered during the session! Don't miss out!\n\nhttps://2021.nordicvirtua
+	lsummit.com/EMDay2\n
+DTEND;TZID="W. Europe Standard Time":20210211T104500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210211T100000
+LAST-MODIFIED:20210209T045926Z
+LOCATION:Endpoint Management
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Windows 10 Servicing in the work from anywhere era
+TRANSP:OPAQUE
+UID:SZSESSION231570
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072928Z
+DESCRIPTION:Speaker: Kenneth van Surksum\n\nIn July 2016 Microsoft made Con
+	ditional Access generally available. Since that time I had a love and hate
+	 relationship with this functionality of Azure AD. Mainly because it's dif
+	ficult to test scenario's and some changes can have a really high impact. 
+	I even experienced being locked out of accessing the Azure portal during o
+	ne of my tests. In this session I will share my experiences about implemen
+	ting Conditional Access at several customers\, I will explain what went wr
+	ong so you don’t have to make the same mistakes. I further will cover ho
+	w to design\, implement\, test and troubleshoot Conditional Access policie
+	s and last but not least\, I will share my own Conditional Access policy b
+	aseline which I use as a starting point for every implementation. Because 
+	sharing is caring.\n\nhttps://2021.nordicvirtualsummit.com/SecDay2\n
+DTEND;TZID="W. Europe Standard Time":20210211T114500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210211T110000
+LAST-MODIFIED:20210209T045926Z
+LOCATION:Security and Compliance
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Azure AD Conditional Access demystified
+TRANSP:OPAQUE
+UID:SZSESSION231418
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072929Z
+DESCRIPTION:Speakers: Sarah Lean\, Thomas Maurer\n\nIn this session Sarah a
+	nd Thomas will talk about the migration journey from on prem to Azure and 
+	the operations side of Azure once you have workloads within Azure and on p
+	rem. \n\nThis will be an interactive session\, with the Sarah & Thomas pre
+	senting some slides and demos but a large portion of the time will be dedi
+	cated to Q&A from the audience.  Please come prepared to ask the presenter
+	s lots of questions on Azure\, Hybrid Cloud\, Windows Server\, Azure Migra
+	te\, Azure Arc\, and lots more!\n\nhttps://2021.nordicvirtualsummit.com/Az
+	ureDay2\n
+DTEND;TZID="W. Europe Standard Time":20210211T114500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210211T110000
+LAST-MODIFIED:20210209T045926Z
+LOCATION:Azure & Automation
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Azure Migration & Hybrid Operations
+TRANSP:OPAQUE
+UID:SZSESSION227521
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072929Z
+DESCRIPTION:Speakers: Jan Ketil Skanke\, Maurice Daly\n\nTraditional Config
+	Mgr admins have grown up with tight control measures to allow them to depl
+	oy driver and BIOS packages. Over the past year in particular though\, the
+	 focus has shifted away to direct management of devices through Intune.\n\
+	nIn this scenario you can use automatic updating of drivers form Microsoft
+	 through update rings\, or utilise OEM software to ensure you are always o
+	n the latest build. The issue is though if you want control across both yo
+	ur ConfigMgr and Intune managed devices\, ensuring they are all in sync.\n
+	\nIn this session we will run through how to apply control methods using c
+	ommunity and OEM tools in harmony to ensure you have complete control over
+	 the stability of your end user devices.\n\nhttps://2021.nordicvirtualsumm
+	it.com/EMDay2\n
+DTEND;TZID="W. Europe Standard Time":20210211T114500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210211T110000
+LAST-MODIFIED:20210209T045926Z
+LOCATION:Endpoint Management
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Introducing Intune BIOS & Driver Control
+TRANSP:OPAQUE
+UID:SZSESSION231196
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072929Z
+DTEND;TZID="W. Europe Standard Time":20210211T130000
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210211T120000
+LAST-MODIFIED:20210209T045926Z
+LOCATION:Security and Compliance
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=en-us:Lunch Break - "Open mic time"
+TRANSP:OPAQUE
+UID:SZSESSIONad557a99-2a27-4db5-92e8-05a90caa92f7
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072929Z
+DTEND;TZID="W. Europe Standard Time":20210211T130000
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210211T120000
+LAST-MODIFIED:20210209T045926Z
+LOCATION:Azure & Automation
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=en-us:Lunch Break - "Open mic time"
+TRANSP:OPAQUE
+UID:SZSESSION180678c8-d79f-4b6d-8f4d-e9d7adeaafb4
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072929Z
+DTEND;TZID="W. Europe Standard Time":20210211T130000
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210211T120000
+LAST-MODIFIED:20210209T045926Z
+LOCATION:Endpoint Management
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=en-us:Lunch Break - "Open mic time"
+TRANSP:OPAQUE
+UID:SZSESSION15bb636c-25d8-4ab7-b5a8-22fd25de008d
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072929Z
+DESCRIPTION:Speaker: Ståle Hansen\n\nBy using the actions in the Secure an
+	d Compliance score you can create an actionable prioritized overview of wh
+	at is implemented. Even more useful is the ability to identify next featur
+	es to validate and implement. Join this session to learn a proven process 
+	to identify actions\, prioritize them and work on improving the tenant\, n
+	ot just in your current project\, but for years to come.\n\nI see customer
+	s adopting this process gets more confident and structured when implementi
+	ng new features. Best of all\, everything is based on Secure Score and Com
+	pliance Score.\n\nKey takeaways\n- Get familiar with the secure and compli
+	ance scores\n- Learn how to use Microsoft Lists to build your prioritized 
+	list\n- Become confident that you are on the right track for a more secure
+	 and compliant tenant\n\nhttps://2021.nordicvirtualsummit.com/SecDay2\n
+DTEND;TZID="W. Europe Standard Time":20210211T134500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210211T130000
+LAST-MODIFIED:20210209T045926Z
+LOCATION:Security and Compliance
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:This is how you drive security and compliance process i
+	n Microsoft 365!
+TRANSP:OPAQUE
+UID:SZSESSION229758
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072929Z
+DESCRIPTION:Speaker: Tiago Costa\n\nMicrosoft Azure is an awesome platform 
+	to run your organization workloads. It supports Cloud native and non-nativ
+	e workloads. It's easy and fast to getting started. After moving and creat
+	ing several resources in Azure some customers are struggling by the lack o
+	f a robust cloud governance structure. \nThis session is target at organiz
+	ation of all sizes\, not only big large organizations need governance\, ev
+	ery single organization needs it. We will review the native services in Az
+	ure that can help you on your governance journey. We will talk and see in 
+	action: Management Groups\, Azure Policy\, Tags\, Azure Blueprints\, CAF -
+	 Cloud Adoption Framework and even a little bit of Cost Management. \n\nht
+	tps://2021.nordicvirtualsummit.com/AzureDay2\n
+DTEND;TZID="W. Europe Standard Time":20210211T134500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210211T130000
+LAST-MODIFIED:20210209T045926Z
+LOCATION:Azure & Automation
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:I find your lack of Azure Governance disturbing!
+TRANSP:OPAQUE
+UID:SZSESSION227485
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072930Z
+DESCRIPTION:Speaker: Peter van der Woude\n\nAndroid Enterprise provides man
+	y different device management scenarios and all of those scenarios are now
+	 available in Microsoft Endpoint Manager. That can feel like an endless ju
+	ngle. In this session I want to take you into this device management jungl
+	e. I want to make sure that you're familiar with the different management 
+	scenarios and that you're familiar with the different management options. 
+	Take you through the latest options and make sure that you know the strong
+	 points of the different management scenarios. On top of that\, we'll have
+	 a look at how the Android Device Policy\, Microsoft Launcher\, Microsoft 
+	Managed Home Screen\, Azure AD shared device mode\, OEMConfig and many mor
+	e technical options\, fit in that jungle.\n\nhttps://2021.nordicvirtualsum
+	mit.com/EMDay2\n
+DTEND;TZID="W. Europe Standard Time":20210211T134500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210211T130000
+LAST-MODIFIED:20210209T045926Z
+LOCATION:Endpoint Management
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Welcome in the Android Enterprise device management jun
+	gle
+TRANSP:OPAQUE
+UID:SZSESSION231479
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072930Z
+DESCRIPTION:Speaker: Miriam Wiesner\n\nDetecting adversaries is not always 
+	easy. Especially when it comes to correlating Windows Event Logs to real-w
+	orld attack patterns and techniques.\n\nJoin me to find out how to match W
+	indows Event Log IDs with the MITRE ATT&CK framework and methods to simpli
+	fy the detection in your environment.\n\nhttps://2021.nordicvirtualsummit.
+	com/SecDay2\n
+DTEND;TZID="W. Europe Standard Time":20210211T144500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210211T140000
+LAST-MODIFIED:20210209T045927Z
+LOCATION:Security and Compliance
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:What the log?! So many events\, so little time…
+TRANSP:OPAQUE
+UID:SZSESSION232865
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072930Z
+DESCRIPTION:Speaker: Jan Vidar Elven\n\nServerless Automation solutions lik
+	e Logic Apps and Azure Functions can be valuable tools for automating IT p
+	rocesses\, much like Power Automate Flows automate user processes. While F
+	lows run under the context of the calling user\, Logic Apps and Azure Func
+	tions runs as itself.  In this session we will look into how to add Azure 
+	AD Authentication and Authorization to these solutions\, and how we can le
+	t end users call them securely and protected by Azure AD.\n\nhttps://2021.
+	nordicvirtualsummit.com/AzureDay2\n
+DTEND;TZID="W. Europe Standard Time":20210211T144500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210211T140000
+LAST-MODIFIED:20210209T045927Z
+LOCATION:Azure & Automation
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Protecting Azure Serverless solutions with Azure AD
+TRANSP:OPAQUE
+UID:SZSESSION231548
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072930Z
+DESCRIPTION:Speakers: Peter Daalmans\, Tim De Keukelaere\n\nMobile Apple iO
+	S devices can be managed via Microsoft Endpoint Manager for a long time ho
+	wever\, Microsoft is adding more and more features so that you are able to
+	 fully control them via Supervise Mode or manage them loosely via MAM with
+	out enrollment. \nFor years Apple is investing in the modern management of
+	 their macOS devices\, which allows Microsoft to also manage macOS devices
+	 via Microsoft Intune and Azure Active Directory. This session will be pac
+	ked with demos and notes from the field.\n\nhttps://2021.nordicvirtualsumm
+	it.com/EMDay2\n
+DTEND;TZID="W. Europe Standard Time":20210211T144500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210211T140000
+LAST-MODIFIED:20210209T045927Z
+LOCATION:Endpoint Management
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Manage your Apple investments with Microsoft Endpoint M
+	anager
+TRANSP:OPAQUE
+UID:SZSESSION227518
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072930Z
+DESCRIPTION:Speaker: Marius Sandbu\n\nWith the adoption of cloud within bus
+	inesses\, the IT department is how faced with new attack surfaces and new 
+	data sources that they need to monitor for suspicious activity. How can th
+	ey manage to monitor their legacy stack in combination with all the new cl
+	oud based applications? . Enter Azure Sentinel a cloud based SIEM tool tha
+	t can gather data from all the different sources\, and how we use Sentinel
+	 and Log Analytics to catch bad guys in the act.\n\nhttps://2021.nordicvir
+	tualsummit.com/SecDay2\n
+DTEND;TZID="W. Europe Standard Time":20210211T154500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210211T150000
+LAST-MODIFIED:20210209T045927Z
+LOCATION:Security and Compliance
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Using Azure Sentinel to catch the bad guys
+TRANSP:OPAQUE
+UID:SZSESSION228930
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072930Z
+DESCRIPTION:Speaker: Eric Berg\n\nIf you are using Azure for a while you ar
+	e searching for ways to optimize your daily operation. Maybe you have trie
+	d PowerShell or Azure Automation. But one tool is often overseen: Logic Ap
+	ps Let us figure out how to use them in the daily Azure Administration. Th
+	is session will teach the Basics of Azure Logic Apps and show practical us
+	e cases including setup and configuration. \nEverything will be demonstrat
+	ed in live demos\n\nhttps://2021.nordicvirtualsummit.com/AzureDay2\n
+DTEND;TZID="W. Europe Standard Time":20210211T154500
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210211T150000
+LAST-MODIFIED:20210209T045927Z
+LOCATION:Azure & Automation
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Manage Azure with Logic Apps - Daily Operations made ea
+	sy
+TRANSP:OPAQUE
+UID:SZSESSION228461
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210129T072931Z
+DESCRIPTION:Speaker: Gerry Hampson\n\nWindows Virtual Desktop allows you to
+	 deploy and scale virtualized Windows desktops and apps on Azure. It can b
+	e deployed in minutes and offers simplified management\, multi-session Win
+	dows 10 and optimizations for Office 365 ProPlus. You can deploy VMs with 
+	Windows 10 or Windows Server 2016. You can also use your own custom Window
+	s 7 images. As an added bonus this includes free extended support for Wind
+	ows 7 (extended security updates for three years). That's a no-brainer. Ge
+	rry will take you through the process to get up and running.\n\nhttps://20
+	21.nordicvirtualsummit.com/EMDay2\n
+DTEND;TZID="W. Europe Standard Time":20210211T160000
+DTSTAMP:20210127T091446Z
+DTSTART;TZID="W. Europe Standard Time":20210211T150000
+LAST-MODIFIED:20210209T045927Z
+LOCATION:Endpoint Management
+PRIORITY:5
+SEQUENCE:56503
+SUMMARY;LANGUAGE=no:Getting started with Windows Virtual Desktop
+TRANSP:OPAQUE
+UID:SZSESSION228882
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+END:VEVENT
+END:VCALENDAR
