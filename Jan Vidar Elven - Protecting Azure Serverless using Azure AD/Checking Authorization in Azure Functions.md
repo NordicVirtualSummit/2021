@@ -35,7 +35,7 @@ Write-Host ($jwt.roles -notcontains "Phone.Write.All")
     } else {
 
         # Set some Variables for Authentication
-        $tenantID = "vikenfk.onmicrosoft.com"
+        $tenantID = "elven.onmicrosoft.com"
         $scopes = "UserAuthenticationMethod.Read.All", "UserAuthenticationMethod.ReadWrite.All", "User.ReadBasic.All"
 
         # Check if running with MSI (in Azure) or Interactive User (local VS Code)
