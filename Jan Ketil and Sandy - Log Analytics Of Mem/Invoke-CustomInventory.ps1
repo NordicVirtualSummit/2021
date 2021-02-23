@@ -13,8 +13,8 @@ function Get-InstalledApplications() {
         $regpath += "HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*"
         $regpath += "HKU:\$UserSid\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*"
     }
-    $propertyNames = 'DisplayName','DisplayVersion','Publisher', 'UninstallString'
-    $Apps = Get-ItemProperty $regpath -Name $propertyNames -ErrorAction SilentlyContinue | .{process{if($_.DisplayName) { $_ } }} | Select-Object DisplayName, DisplayVersion, Publisher, UninstallString, PSPath | Sort-Object DisplayName   
+    $propertyNames = 'DisplayName','DisplayVersion', 'InstallDate', 'Publisher', 'UninstallString'
+    $Apps = Get-ItemProperty $regpath -Name $propertyNames -ErrorAction SilentlyContinue | .{process{if($_.DisplayName) { $_ } }} | Select-Object DisplayName, DisplayVersion, InstallDate, Publisher, UninstallString, PSPath | Sort-Object DisplayName   
     Remove-PSDrive -Name "HKU" | Out-Null
     Return $Apps
 }
@@ -226,6 +226,7 @@ foreach ($App in $CleanAppList){
     $tempapp | Add-Member -MemberType NoteProperty -Name "AADDeviceID" -Value "$AADDeviceID" -Force
     $tempapp | Add-Member -MemberType NoteProperty -Name "AppName" -Value $App.DisplayName -Force
     $tempapp | Add-Member -MemberType NoteProperty -Name "AppVersion" -Value $App.DisplayVersion -Force
+    $tempapp | Add-Member -MemberType NoteProperty -Name "AppInstallDate" -Value $app.InstallDate -Force -ErrorAction SilentlyContinue    
     $tempapp | Add-Member -MemberType NoteProperty -Name "AppPublisher" -Value $App.Publisher -Force
     $tempapp | Add-Member -MemberType NoteProperty -Name "AppUninstallString" -Value $App.UninstallString -Force
     $tempapp | Add-Member -MemberType NoteProperty -Name "AppUninstallRegPath" -Value $app.PSPath.Split("::")[-1]
